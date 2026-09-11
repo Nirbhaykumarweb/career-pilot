@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Career Pilot | AI-Powered Campus Placement Preparation</title>
+    <meta name="description"
+        content="Career Pilot is an AI-powered campus placement preparation platform for students." />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+    <link rel="stylesheet" href="assets/css/components.css" />
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="index.html">
+                <span class="brand-badge"><img
+                        src="https://github.com/Nirbhaykumarweb/career-pilot/blob/main/carreer_pilot_logo-removebg-preview.png?raw=true"
+                        alt="Career Pilot logo" /></span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mainNav">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0 gap-lg-2">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#companies">Companies</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#preparation">Preparation</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#aiInterview">AI Interview</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#pricing">Pricing</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                </ul>
+                <div class="d-flex gap-2 flex-wrap">
+                    <a class="btn btn-outline-primary" href="login.html">Login</a>
+                    <a class="btn btn-primary" href="register.html">Get Started</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero-section" id="home">
+        <div class="container">
+            <div class="row align-items-center g-4">
+                <div class="col-lg-6 hero-content">
+                    <span class="chip mb-3">AI-Powered Campus Placement Preparation</span>
+                    <h1>Prepare Smarter. Interview Better. Get Placement Ready.</h1>
+                    <p class="mt-3">Career Pilot helps students master aptitude, technical rounds, DSA, projects, HR
+                        interviews, and AI mock interviews in one polished placement preparation platform.</p>
+                    <div class="d-flex gap-3 flex-wrap mt-4">
+                        <a href="student/dashboard.html" class="btn btn-primary btn-lg">Start Preparation</a>
+                        <a href="#companies" class="btn btn-outline-light btn-lg">Explore Companies</a>
+                    </div>
+                    <div class="d-flex gap-4 flex-wrap mt-4">
+                        <div>
+                            <div class="fs-4 fw-bold">5000+</div>
+                            <small>Questions</small>
+                        </div>
+                        <div>
+                            <div class="fs-4 fw-bold">100+</div>
+                            <small>Companies</small>
+                        </div>
+                        <div>
+                            <div class="fs-4 fw-bold">10K+</div>
+                            <small>Students</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="hero-visual">
+                        <div class="row g-3">
+                            <div class="col-6">
+                                <div class="hero-card">
+                                    <div class="d-flex align-items-center justify-content-between mb-2">
+                                        <span class="fw-bold">Interview Readiness</span>
+                                        <span class="chip">89%</span>
+                                    </div>
+                                    <div class="progress">
+                                        <div class="progress-bar bg-primary" style="width:89%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="hero-card text-center">
+                                    <div class="feature-icon mx-auto"><i class="fa-solid fa-robot"></i></div>
+                                    <div class="fw-bold">AI Mock Interview</div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="hero-card">
+                                    <div class="d-flex justify-content-between align-items-center mb-2">
+                                        <span class="fw-bold">Target Company</span>
+                                        <span class="chip">TCS</span>
+                                    </div>
+                                    <div class="list-group list-group-flush">
+                                        <div class="list-group-item bg-transparent border-0 px-0 text-white-50">
+                                            <div class="d-flex justify-content-between">
+                                                <span>Aptitude</span>
+                                                <span>Completed</span>
+                                            </div>
+                                        </div>
+                                        <div class="list-group-item bg-transparent border-0 px-0 text-white-50">
+                                            <div class="d-flex justify-content-between">
+                                                <span>Technical</span>
+                                                <span>In Progress</span>
+                                            </div>
+                                        </div>
+                                        <div class="list-group-item bg-transparent border-0 px-0 text-white-50">
+                                            <div class="d-flex justify-content-between">
+                                                <span>DSA</span>
+                                                <span>5/8 Topics</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="py-5" id="features">
+            <div class="container">
+                <div class="text-center mb-5">
+                    <span class="chip">Features</span>
+                    <h2 class="section-title mt-3">Everything you need for placement success</h2>
+                </div>
+                <div class="row g-4">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="feature-card card-hover">
+                            <div class="feature-icon"><i class="fa-solid fa-building-columns"></i></div>
+                            <h4>Company-wise Preparation</h4>
+                            <p class="text-muted-soft">Target a specific company and follow role-specific preparation
+                                roadmaps and interview rounds.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="feature-card card-hover">
+                            <div class="feature-icon"><i class="fa-solid fa-clipboard-list"></i></div>
+                            <h4>Previous Interview Experiences</h4>
+                            <p class="text-muted-soft">Learn from real sample experiences and discover how each round is
+                                typically structured.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="feature-card card-hover">
+                            <div class="feature-icon"><i class="fa-solid fa-brain"></i></div>
+                            <h4>Aptitude Practice</h4>
+                            <p class="text-muted-soft">Master quantitative, logical, verbal, and data interpretation
+                                sections through guided quizzes.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="feature-card card-hover">
+                            <div class="feature-icon"><i class="fa-solid fa-code"></i></div>
+                            <h4>Technical Questions</h4>
+                            <p class="text-muted-soft">Prepare core CS fundamentals, OOP, DBMS, OS, networking, and
+                                interview-oriented discussions.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="feature-card card-hover">
+                            <div class="feature-icon"><i class="fa-solid fa-diagram-project"></i></div>
+                            <h4>DSA Practice</h4>
+                            <p class="text-muted-soft">Improve coding confidence using arrays, strings, trees, graphs,
+                                dynamic programming, and more.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="feature-card card-hover">
+                            <div class="feature-icon"><i class="fa-solid fa-robot"></i></div>
+                            <h4>AI Mock Interview</h4>
+                            <p class="text-muted-soft">Simulate interviews with multiple AI interviewers and receive
+                                detailed performance feedback.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="feature-card card-hover">
+                            <div class="feature-icon"><i class="fa-solid fa-diagram-next"></i></div>
+                            <h4>Project Preparation</h4>
+                            <p class="text-muted-soft">Practice project introductions, architecture explanations,
+                                challenges, and key discussion points.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="feature-card card-hover">
+                            <div class="feature-icon"><i class="fa-solid fa-user-tie"></i></div>
+                            <h4>HR Preparation</h4>
+                            <p class="text-muted-soft">Build confidence with HR questions, communication tips, and
+                                polished self-introduction prep.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="feature-card card-hover">
+                            <div class="feature-icon"><i class="fa-solid fa-chart-line"></i></div>
+                            <h4>Progress Tracking</h4>
+                            <p class="text-muted-soft">Track aptitude, DSA, technical, and interview readiness with
+                                clear progress indicators.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-5 bg-white" id="preparation">
+            <div class="container">
+                <div class="text-center mb-5">
+                    <span class="chip">How It Works</span>
+                    <h2 class="section-title mt-3">A simple roadmap to placement success</h2>
+                </div>
+                <div class="row g-4">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="step-item h-100">
+                            <div class="step-number">1</div>
+                            <h4>Select Company</h4>
+                            <p class="text-muted-soft">Choose your target company and explore the job role, package,
+                                eligibility, and round structure.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="step-item h-100">
+                            <div class="step-number">2</div>
+                            <h4>Prepare for Rounds</h4>
+                            <p class="text-muted-soft">Follow company-wise preparation plans covering aptitude,
+                                technical, DSA, project, and HR rounds.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="step-item h-100">
+                            <div class="step-number">3</div>
+                            <h4>Practice Questions</h4>
+                            <p class="text-muted-soft">Attempt practice questions by category, difficulty, and company
+                                to build confidence progressively.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="step-item h-100">
+                            <div class="step-number">4</div>
+                            <h4>Take AI Interview</h4>
+                            <p class="text-muted-soft">Participate in a mock interview with AI interviewers that
+                                simulate real round patterns.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="step-item h-100">
+                            <div class="step-number">5</div>
+                            <h4>Get Performance Report</h4>
+                            <p class="text-muted-soft">Receive an AI-generated report highlighting strengths,
+                                weaknesses, and improvement areas.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="step-item h-100">
+                            <div class="step-number">6</div>
+                            <h4>Track Growth</h4>
+                            <p class="text-muted-soft">Review your readiness score, solved questions, and progress
+                                across multiple preparation areas.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-5" id="aiInterview">
+            <div class="container">
+                <div class="text-center mb-5">
+                    <span class="chip">AI Interview</span>
+                    <h2 class="section-title mt-3">Simulated AI interview roles</h2>
+                </div>
+                <div class="row g-4">
+                    <div class="col-md-6 col-lg-3">
+                        <div class="feature-card h-100">
+                            <div class="feature-icon"><i class="fa-solid fa-laptop-code"></i></div>
+                            <h4>Technical AI</h4>
+                            <p class="text-muted-soft">Evaluates programming fundamentals, DBMS, OS, computer networks,
+                                and OOP concepts.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="feature-card h-100">
+                            <div class="feature-icon"><i class="fa-solid fa-terminal"></i></div>
+                            <h4>DSA/Coding AI</h4>
+                            <p class="text-muted-soft">Assesses problem solving, algorithms, coding quality, and
+                                complexity analysis.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="feature-card h-100">
+                            <div class="feature-icon"><i class="fa-solid fa-diagram-project"></i></div>
+                            <h4>Project AI</h4>
+                            <p class="text-muted-soft">Reviews project knowledge, architecture decisions, technology
+                                choices, and contributions.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="feature-card h-100">
+                            <div class="feature-icon"><i class="fa-solid fa-user-tie"></i></div>
+                            <h4>HR AI</h4>
+                            <p class="text-muted-soft">Focuses on communication, confidence, behavior, leadership, and
+                                professional attitude.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-5 bg-white" id="companies">
+            <div class="container">
+                <div class="text-center mb-5">
+                    <span class="chip">Companies</span>
+                    <h2 class="section-title mt-3">Popular companies students prepare for</h2>
+                </div>
+                <div class="row g-4">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="company-card p-4 h-100 card-hover">
+                            <div class="d-flex align-items-center gap-3 mb-3">
+                                <div class="company-logo">T</div>
+                                <div>
+                                    <h5 class="mb-0">TCS</h5>
+                                    <small class="text-muted-soft">Software Engineer</small>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <span class="chip">Approx. ₹7.5 LPA</span>
+                                <span class="text-muted-soft">Medium</span>
+                            </div>
+                            <p class="text-muted-soft mb-3">5 rounds • Aptitude • Technical • HR</p>
+                            <a href="student/company-details.html" class="btn btn-outline-primary w-100">Prepare</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="company-card p-4 h-100 card-hover">
+                            <div class="d-flex align-items-center gap-3 mb-3">
+                                <div class="company-logo">I</div>
+                                <div>
+                                    <h5 class="mb-0">Infosys</h5>
+                                    <small class="text-muted-soft">System Engineer</small>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <span class="chip">Approx. ₹6.5 LPA</span>
+                                <span class="text-muted-soft">Easy</span>
+                            </div>
+                            <p class="text-muted-soft mb-3">4 rounds • Aptitude • Technical • HR</p>
+                            <a href="student/company-details.html" class="btn btn-outline-primary w-100">Prepare</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="company-card p-4 h-100 card-hover">
+                            <div class="d-flex align-items-center gap-3 mb-3">
+                                <div class="company-logo">W</div>
+                                <div>
+                                    <h5 class="mb-0">Wipro</h5>
+                                    <small class="text-muted-soft">Project Engineer</small>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <span class="chip">Approx. ₹6.0 LPA</span>
+                                <span class="text-muted-soft">Medium</span>
+                            </div>
+                            <p class="text-muted-soft mb-3">4 rounds • Aptitude • Technical • HR</p>
+                            <a href="student/company-details.html" class="btn btn-outline-primary w-100">Prepare</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="company-card p-4 h-100 card-hover">
+                            <div class="d-flex align-items-center gap-3 mb-3">
+                                <div class="company-logo">A</div>
+                                <div>
+                                    <h5 class="mb-0">Accenture</h5>
+                                    <small class="text-muted-soft">Associate Software Engineer</small>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <span class="chip">Approx. ₹8.0 LPA</span>
+                                <span class="text-muted-soft">Medium</span>
+                            </div>
+                            <p class="text-muted-soft mb-3">5 rounds • Aptitude • Tech • HR</p>
+                            <a href="student/company-details.html" class="btn btn-outline-primary w-100">Prepare</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="company-card p-4 h-100 card-hover">
+                            <div class="d-flex align-items-center gap-3 mb-3">
+                                <div class="company-logo">C</div>
+                                <div>
+                                    <h5 class="mb-0">Cognizant</h5>
+                                    <small class="text-muted-soft">Programmer Analyst</small>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <span class="chip">Approx. ₹7.0 LPA</span>
+                                <span class="text-muted-soft">Medium</span>
+                            </div>
+                            <p class="text-muted-soft mb-3">4 rounds • Reasoning • Tech • HR</p>
+                            <a href="student/company-details.html" class="btn btn-outline-primary w-100">Prepare</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="company-card p-4 h-100 card-hover">
+                            <div class="d-flex align-items-center gap-3 mb-3">
+                                <div class="company-logo">Cp</div>
+                                <div>
+                                    <h5 class="mb-0">Capgemini</h5>
+                                    <small class="text-muted-soft">Software Engineer</small>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <span class="chip">Approx. ₹8.2 LPA</span>
+                                <span class="text-muted-soft">High</span>
+                            </div>
+                            <p class="text-muted-soft mb-3">5 rounds • Aptitude • Coding • HR</p>
+                            <a href="student/company-details.html" class="btn btn-outline-primary w-100">Prepare</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-5">
+            <div class="container">
+                <div class="text-center mb-5">
+                    <span class="chip">Impact</span>
+                    <h2 class="section-title mt-3">Built for measurable preparation progress</h2>
+                </div>
+                <div class="row g-4">
+                    <div class="col-md-6 col-lg-3">
+                        <div class="stat-card p-4 text-center">
+                            <div class="metric-value">5000+</div>
+                            <p class="text-muted-soft mb-0">Questions</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="stat-card p-4 text-center">
+                            <div class="metric-value">100+</div>
+                            <p class="text-muted-soft mb-0">Companies</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="stat-card p-4 text-center">
+                            <div class="metric-value">10K+</div>
+                            <p class="text-muted-soft mb-0">Students</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="stat-card p-4 text-center">
+                            <div class="metric-value">500+</div>
+                            <p class="text-muted-soft mb-0">Mock Interviews</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-5 bg-white" id="testimonials">
+            <div class="container">
+                <div class="text-center mb-5">
+                    <span class="chip">Testimonials</span>
+                    <h2 class="section-title mt-3">Students love the Career Pilot experience</h2>
+                </div>
+                <div class="row g-4">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="testimonial-card p-4 h-100">
+                            <div class="d-flex align-items-center mb-3">
+                                <div class="company-logo me-3">S</div>
+                                <div>
+                                    <h5 class="mb-0">Sushma</h5>
+                                    <small class="text-muted-soft">B.Tech CSE</small>
+                                </div>
+                            </div>
+                            <p class="text-muted-soft">The AI mock interview felt realistic and helped me improve my
+                                communication and confidence before the actual campus process.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="testimonial-card p-4 h-100">
+                            <div class="d-flex align-items-center mb-3">
+                                <div class="company-logo me-3">A</div>
+                                <div>
+                                    <h5 class="mb-0">Arjun</h5>
+                                    <small class="text-muted-soft">B.E. ECE</small>
+                                </div>
+                            </div>
+                            <p class="text-muted-soft">I used the DSA and aptitude sections extensively. The progress
+                                tracking made it easy to focus on weak areas.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="testimonial-card p-4 h-100">
+                            <div class="d-flex align-items-center mb-3">
+                                <div class="company-logo me-3">N</div>
+                                <div>
+                                    <h5 class="mb-0">Neha</h5>
+                                    <small class="text-muted-soft">B.Sc IT</small>
+                                </div>
+                            </div>
+                            <p class="text-muted-soft">The company-wise preparation pages were extremely helpful. I
+                                could prepare specifically for Infosys and TCS rounds.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-5" id="pricing">
+            <div class="container">
+                <div class="text-center mb-5">
+                    <span class="chip">Pricing</span>
+                    <h2 class="section-title mt-3">Flexible plans for every stage of preparation</h2>
+                </div>
+                <div class="row g-4">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="plan-card p-4 h-100">
+                            <h4>Free</h4>
+                            <div class="metric-value mb-3">₹0</div>
+                            <ul class="list-unstyled text-muted-soft">
+                                <li><i class="fa-solid fa-check text-success me-2"></i>Basic questions</li>
+                                <li><i class="fa-solid fa-check text-success me-2"></i>Limited company preparation</li>
+                                <li><i class="fa-solid fa-check text-success me-2"></i>Basic progress tracking</li>
+                            </ul>
+                            <a href="register.html" class="btn btn-outline-primary w-100">Get Started</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="plan-card p-4 h-100 border-primary border-2">
+                            <div class="chip mb-3">Most Popular</div>
+                            <h4>Pro</h4>
+                            <div class="metric-value mb-3">₹499</div>
+                            <ul class="list-unstyled text-muted-soft">
+                                <li><i class="fa-solid fa-check text-success me-2"></i>Full question bank</li>
+                                <li><i class="fa-solid fa-check text-success me-2"></i>Company-wise preparation</li>
+                                <li><i class="fa-solid fa-check text-success me-2"></i>AI interview access</li>
+                                <li><i class="fa-solid fa-check text-success me-2"></i>Detailed reports</li>
+                            </ul>
+                            <a href="register.html" class="btn btn-primary w-100">Upgrade to Pro</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="plan-card p-4 h-100">
+                            <h4>Premium</h4>
+                            <div class="metric-value mb-3">₹999</div>
+                            <ul class="list-unstyled text-muted-soft">
+                                <li><i class="fa-solid fa-check text-success me-2"></i>Unlimited AI interviews</li>
+                                <li><i class="fa-solid fa-check text-success me-2"></i>Advanced analytics</li>
+                                <li><i class="fa-solid fa-check text-success me-2"></i>Personalized preparation</li>
+                                <li><i class="fa-solid fa-check text-success me-2"></i>Priority features</li>
+                            </ul>
+                            <a href="register.html" class="btn btn-outline-primary w-100">Go Premium</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-5 bg-white" id="about">
+            <div class="container">
+                <div class="row align-items-center g-4">
+                    <div class="col-lg-6">
+                        <span class="chip">About</span>
+                        <h2 class="section-title mt-3">A mission-driven platform for student success</h2>
+                        <p class="text-muted-soft">Career Pilot is designed to make placement preparation structured,
+                            practical, and confidence-building for students across engineering and diploma programs.</p>
+                        <p class="text-muted-soft">From aptitude to AI interviews, the platform helps students prepare
+                            smarter and get closer to their dream jobs.</p>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="feature-card h-100">
+                            <div class="row g-3">
+                                <div class="col-6">
+                                    <div class="summary-card h-100">
+                                        <div class="text-muted-soft">Students Supported</div>
+                                        <div class="metric-value">10K+</div>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="summary-card h-100">
+                                        <div class="text-muted-soft">AI Simulations</div>
+                                        <div class="metric-value">500+</div>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="summary-card h-100">
+                                        <div class="text-muted-soft">Placement Focus</div>
+                                        <div class="metric-value">100%</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-5">
+            <div class="container">
+                <div class="text-center mb-5">
+                    <span class="chip">Get Started</span>
+                    <h2 class="section-title mt-3">Start your placement journey today</h2>
+                </div>
+                <div class="text-center">
+                    <a href="register.html" class="btn btn-primary btn-lg">Start Your Placement Journey Today</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <div class="brand-badge footer-logo"><img
+                            src="https://github.com/Nirbhaykumarweb/career-pilot/blob/main/carreer_pilot_logo-removebg-preview.png?raw=true"
+                            alt="Career Pilot logo" /></div>
+                    <p class="text-white-50">AI-powered campus placement preparation and interview platform for
+                        students.</p>
+                </div>
+                <div class="col-lg-2">
+                    <h6 class="text-white">About</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="#about" class="text-white-50">About</a></li>
+                        <li><a href="#companies" class="text-white-50">Companies</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2">
+                    <h6 class="text-white">Contact</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white-50">support@careerpilot.com</a></li>
+                        <li><a href="#" class="text-white-50">+91 98765 43210</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4">
+                    <h6 class="text-white">Legal</h6>
+                    <ul class="list-unstyled d-flex flex-wrap gap-3">
+                        <li><a href="#" class="text-white-50">Privacy Policy</a></li>
+                        <li><a href="#" class="text-white-50">Terms</a></li>
+                        <li><a href="#" class="text-white-50"><i class="fa-brands fa-linkedin"></i></a></li>
+                        <li><a href="#" class="text-white-50"><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href="#" class="text-white-50"><i class="fa-brands fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-top border-secondary mt-4 pt-3 text-center text-white-50">
+                © <span id="currentYear"></span> Career Pilot. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
